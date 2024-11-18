@@ -1,0 +1,54 @@
+# Initialize game
+Initialize game grid (10x20)
+Initialize score = 0
+Initialize level = 1
+Initialize game speed = normal
+Initialize power-ups (empty)
+
+# Start game loop
+While game is running:
+    Clear screen
+    Display current Bamboo count and level
+    Display health of Panda
+    Display player character
+    Dusplay Panda
+    Display levels remaining to boss
+    Display Upgrade window
+
+    if player left clicks panda:
+        panda HP -= punch damage
+        If panda HP > 0
+            panda puncher punches
+            Update bamboo based on punch damage 
+        If panda HP <= 0
+            panda knockout == true
+            player collects bamboo chest
+            create new panda with more HP
+        If player presses "pause"
+            Pause game
+            If player presses save in pause menue
+                save game 
+            if player presses quit in pause menue
+                quit game
+        
+# upgrade logic
+    For each active ugrade:
+        Check if upgrade is baught by the player
+        If baught:
+            have the upgrade do what it describes in text (more strength, auto damage, ect.)
+
+# Level-up logic
+If panda knockout == true:
+    if level % 10!=0:
+        Increase panda HP
+        Increase bamboo per treasure box
+    else:
+        create boss panda,
+        increase bamboo treasure box by a large amount
+        start the kick timer (give players a set amount of time before having to grind the previouse levels)
+    panda knockout == False
+
+# End of game
+If player finishes the game or exits:
+    Display final bamboo amount, number of pandas punched out, and upgrade list.
+    Ask if player wants to save, restart, or quit
