@@ -25,11 +25,15 @@ Acceptance Criteria:
 	•   Have clickable buttons for each upgrade option
     •   Increase punching power or other upgrades to gain more bamboo
 
-User Story 4: Player 
+User Story 4: Player can prestige
 As a player,
 I want to be able to prestige
-So that I 
+So that I get upgrades faster after the prestige.
 Acceptance Criteria:
+    •   a skill tree where you can spend panda points for upgrades
+    •   clickable upgrade tree
+    •   ability to prestige through a button press
+    •   a warning of loss of proggress
 	
 
 User Story 5: Player Saves Game Progress
@@ -41,8 +45,11 @@ Acceptance Criteria:
 	•	When the player reopens the game, they must be able to resume from the saved progress, including score, level, and game grid state.
 	•	The game must prompt the player with a “Save Game” option in the pause menu.
 
-User Story 6: Player Reaches Higher Levels
+User Story 6: Player Reaches stronger Pandas to Punch
 As a player,
-I want to progress to higher levels as I PUNCH mroe pandas,
+I want to progress to higher levels as I PUNCH more pandas,
 So that I can face more challenging gameplay with gurthyer pandas to punch and unlock new upgrades.
 Acceptance Criteria:
+    •   Panda health increases as they get punched
+    •   Boss panda every 10 levels that kick the player out of its domain after a set amount of time
+    •   bigger rewards after each panda defeated
