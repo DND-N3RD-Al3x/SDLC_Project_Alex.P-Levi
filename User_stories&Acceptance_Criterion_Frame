@@ -1,0 +1,48 @@
+User Stories and Acceptance Criterion Frame
+
+User Story 1: Player Starts the Game
+As a player,
+I want to start a new game by pressing a “Start” button,
+So that I can begin playing Power-Up Tetris Mayhem and enjoy the game.
+Acceptance Criteria:
+	•	The player must be able to click a visible “Start Game” button.
+	•	Upon clicking, the game must transition from the main menu to the gameplay screen without delay.
+	•	The game screen must display a timer or score tracker as soon as the game begins.
+
+User Story 2: Player panda punch
+As a player,
+I want to be able to punch a panda 
+So that I can collect bamboo 
+Acceptance Criteria:
+	•	when player left clicks panda, panda takes damage 
+    •   when panda takes damage, bamboo is added to the bamboo count.
+
+User Story 3: Upgrades
+As a player,
+I want to be able to buy upgrades
+So that I can punch pandas for more bamboo
+Acceptance Criteria:
+	•   Have clickable buttons for each upgrade option
+    •   Increase punching power or other upgrades to gain more bamboo
+
+User Story 4: Player 
+As a player,
+I want to be able to prestige
+So that I 
+Acceptance Criteria:
+	
+
+User Story 5: Player Saves Game Progress
+As a player,
+I want to save my progress during the game,
+So that I can resume playing from where I left off if I exit or pause the game.
+Acceptance Criteria:
+	•	The game must allow the player to save the current game state at any point during gameplay.
+	•	When the player reopens the game, they must be able to resume from the saved progress, including score, level, and game grid state.
+	•	The game must prompt the player with a “Save Game” option in the pause menu.
+
+User Story 6: Player Reaches Higher Levels
+As a player,
+I want to progress to higher levels as I PUNCH mroe pandas,
+So that I can face more challenging gameplay with gurthyer pandas to punch and unlock new upgrades.
+Acceptance Criteria:
