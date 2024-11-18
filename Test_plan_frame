@@ -1,0 +1,61 @@
+Test Plan Frame for Your Game
+
+1. Boundary Cases
+	•	1 player (maximum)
+	•	Speed: Test punch sprite speed, panda sprite speed, other sprite speed
+	•	Test at the lowest speed setting.
+	•	Test at the highest speed 
+	•	Level Completion: test if when panda falls, it moves to the next level
+	•	Test when the boss is almost out.
+3. Design Integration
+	•	Check that panda can only move within the defined boundaries (the play area).
+	•	Test that blocks stop at the right moment when they hit the floor or another block.
+	•	Ensure that the game properly detects collisions with fists and pandas clicking.
+	•	Score and Level Integration:
+	•	Ensure that the level increases when the Panda HP <= 0
+	•	Test saving and loading the game state correctly.
+ 
+4. Unit and Logic
+	•	Ensure that upgrades do not move outside the play area or overlap incorrectly.
+•	Logic Errors:
+	•	Verify that the game correctly updates the bamboo counts.
+	•  Test if the game gives the correct bonus for knocking out a panda.
+	•  Ensure that the level number reflects the correct HP of the pandas.
+
+
+
+5. Protect Execution from Bad Input
+	•	Invalid Key Presses:
+	•	If a player presses a key that doesn’t correspond to any valid movement (like pressing two keys simultaneously that conflict), the game should not crash or behave unexpectedly.
+	•	Non-Numeric Input:
+	•	In case there’s any user input for scores, player names, or other areas, ensure the game correctly handles non-numeric input (if applicable).
+
+
+
+
+Part 6: Build a table to present all the test information
+Once you have identified the various tests, use a table to organize and present your test cases. The table should include the following columns:
+**Test Case**: A brief description of what is being tested
+**Test Data**: The input or condition being tested
+**Expected Outcome**: What you expect to happen when the test is executed
+
+
+Test Case       |  Test Data         |  Expected Outcome
+---------------------------------------------------------------------------------------------
+Upgrade count   |  0, 1,             |  Game prompt for the number of upgrades. If a value other 
+                |  4, 5 players      |  than 1,2, 3, or 4, the game will display "Please 
+                |                    |  enter a number 1 through 4" and wait for user input.
+---------------------------------------------------------------------------------------------
+bamboo increase |  0, 1, 1000000, 	 | The score starts at zero and increases by player strength until
+                |  1000000000,       | the game ends or the score is 1000000. At 1000000, the score
+                |  1000M             | becomes 1.0 M, and at 1000000M, it becomes 1.0B, and so forth
+---------------------------------------------------------------------------------------------
+Invalid input   | “bc”, “#@!”,       | Game will ignore all key presses except left click
+                | 'return key'       | 
+---------------------------------------------------------------------------------------------
+Menu selected   |  mouse click       |  All game motion will stop while the menu 
+                |  on the menu icon  |  modal is open.
+---------------------------------------------------------------------------------------------
+
+			
+			
