@@ -1,43 +1,44 @@
-Requirements Specification: [Game Name]
+Requirements Specification: [PANDA PUNCHER]
 
-Game Name: [Insert Game Name]
-Team Members: [List Team Members]
-Client: [Instructor or Team]
-Date: [Insert Date]
+Game Name: [PANDA PUNCHER]
+Team Members: [Levi & Alex.p]
+Client: [Ms.Kennedy]
+Date: [11/14/2024]
 
 Game Overview
-	•	Brief description of the game (genre, style, objective).
-	•	What is the main goal of the game? (E.g., score points, reach a certain level, etc.)
+	•	The game is a clicker/taping game about PUNCHING PANDAS!!!!
+	•	PUNCH PANDAS TO GET BANBOO TO SPEND ON UPGRADES TO PUNCH PANDAS HARDER!!!
 
 
 
 Functional Requirements
 	•	Core Features:
-	•	What must the game do? (E.g., login, save progress, track scores, level progression)
+	•	login, save progress, track bamboo gathered, level progression
 	•	User Interactions:
-	•	How does the player interact with the game? (E.g., button presses, touch controls, mouse movements)
+	•	button presses, touch controls, mouse movements
 
 
 
 Non-Functional Requirements
 	•	Usability:
-	•	How should the game be designed for the player? (E.g., easy to understand, intuitive controls)
+	•	easy to understand, intuitive controls, moral regretion to the highest capability
 	•	Performance:
-	•	How should the game perform? (E.g., frame rate, load time, number of players supported)
+	•	frame rate at 60, load time, number of players supported:10 per server
 	•	Cross-Platform Compatibility:
-	•	Does the game need to work on multiple devices or platforms? (E.g., PC, mobile, tablet)
+	•	PC, mobile, tablet
 
 
 Design Requirements
 	•	Graphics and Visuals:
-	•	Style of the game graphics (e.g., retro, pixelated, smooth animations)
+	•	Pixolated
 	•	Audio:
-	•	What kind of sound effects or music will be used?
+	•	PANDA HURT SOUND/PANDA DEATH SOUND/UPBEAT BACKGROUND MUSIC FOR THE GAME ABOUT PUNCHING PANDAS/PUNCHING PANDA SOUNDS/LEVEL UP SOUND
 Data Requirements
-	•	What data needs to be saved or tracked? (E.g., high scores, player progress, achievements)
-	•	How will the data be stored? (e.g., in-game memory, online storage)
+	•	player progress, achievements, upgrades, bamboo amount.
+	•	in-game memory, online storage
 
 
 Collaboration with Client
-	•	How will you gather feedback from the client in each sprint? (E.g., through surveys, playtesting, direct meetings)
+	•	surveys, playtesting, and direct meetings
 	•	How will you ensure the game is developing according to the client's needs?
+    Magic and comunication
